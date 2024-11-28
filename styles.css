@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-Regular.ttf") format("truetype"); /* Regular */
+  font-weight: 400; /* Poids normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-Bold.ttf") format("truetype"); /* Bold */
+  font-weight: 700; /* Poids gras */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-SemiBold.ttf") format("truetype"); /* SemiBold */
+  font-weight: 600; /* Semi-gras */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf")
+    format("truetype"); /* Italic */
+  font-weight: 100 900; /* Variable font for italic */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype"); /* Variable font */
+  font-weight: 100 900; /* Variable font with weight range */
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+  font-family: "Work Sans";
+}
+
+.background {
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+}
+
+.box {
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  top: 90%;
+  width: 25%;
+  padding: 20px;
+}
+
+.titres {
+  display: flex;
+  margin: 30px;
+  font-size: 2rem;
+}
+
+.titres h1 {
+  margin-left: 10px;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+  margin: 20px;
+  padding: 15px;
+}
+
+h2:hover {
+  color: hsl(292, 16%, 49%);
+  cursor: pointer;
+}
+
+.commentaire {
+  font-weight: 200;
+  color: hsl(292, 16%, 49%);
+  margin: 10px;
+}
